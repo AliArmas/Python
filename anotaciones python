@@ -43,6 +43,23 @@ De esta forma podemos trabajar de una forma más eficiente con las tuplas.
 ---------------------------------------------------------------------------
 https://es.wikihow.com/hackear-wifi-WPA/WPA2-con-Kali-Linux
 ---------------------------------------------------------------------------
+*sabemos que es una lista porque la declaramos con corchetes y sabemos que es una tupla proque la declaramos con parentesis.}
+* la funcion len() retorna un valor entero que te da la longitud de la cadena (los espacios tambien se cuentan como caracter)
+* al igual que las tuplas los Strings son inmutables
+........................................................................................................................................................................................................................
+////////
+metodos para string 
+- split()
+- join()
+- splitlines()
+-----------------------------------------------------------------------------------------------------------------------------
+/////////////////
+formatos de string
+[0]capitalize() pone la primera letra en mayuscula
+[0]upper() pone todas las letras en mayusculas
+[0]lower() pone todas las letras en minusculas
+[0]swapcase() cambia de mayusculas a minusculas
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -51,8 +68,3 @@ https://es.wikihow.com/hackear-wifi-WPA/WPA2-con-Kali-Linux
 
 
 
-
-
-
-
-09/04/2020 02:26:01 09/04/2020 02:26:02 

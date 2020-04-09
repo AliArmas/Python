@@ -52,4 +52,107 @@ resultado = zip(tupla, lista)
 #resultado = tuple(resultado)
 resultado = list(resultado)
 print(resultado)
+#conevertir tuplas a listas y viceversa
+
+tupla_dos = tuple(lista)
+print(tupla_dos)
+##################################
+#formatos de texto en python
+texto = "curso de Python 3"
+resultdo = texto.title()
+resultado_1 = texto.replace("curso", "Perro")
+print(resultado_1)
+#
+curso1 = "Python"
+version = 3
+
+#result = "Curso de %s %s" %(curso1, version)
+result = "Curso de {b} {a}".format(a=curso1,b=version)
+print(result)
+#concatenacion
+texto = "C" + texto[1:] + " " + str(191287) + " " + " Soy una verga"
+print(texto)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
