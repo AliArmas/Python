@@ -1,6 +1,6 @@
 #primer programa en python
-#calculadora basica
-
+#conceptos basicos
+"""
 a = 1
 while a>=1 :
     print("Calculadora")
@@ -8,13 +8,7 @@ while a>=1 :
     print("2.-Restar")
     print("3.-Multiplicar")
     print("4.-Salir")
-    a = intprint("Calculadora")
-print("1.-Sumar")
-print("2.-Restar")
-print("3.-Multiplicar")
-print("4.-Salir")
-a = int(input()) (input()) 
-while(a>=1):    
+    a = int(input())
     print("Ingresa el primer numero")
     numero = int(input())
     print("Ingresa el segundo numero")
@@ -28,6 +22,27 @@ while(a>=1):
     elif (a == 4):
         a = 0 
 print("terminé")
-        
-    
+"""        
+#listas 
+lista = ["hola","men","sas","asasd"]
+saludo = lista[0]
+print(saludo)
+#sublistas
+#subLista = lista [::-1]
+subLista = lista [3:]
+print(subLista)
+#tuplas
+#las tuplas son inmutables 
+# es decir que no se puede cambiar su valor una vez declarada
+#instancia de tupla
+
+tupla = ("soy una tupla",2,True,3.3)
+
+uno,dos,tres = tupla
+
+print(uno)
+print(dos)
+print(tres)
+
+
 
