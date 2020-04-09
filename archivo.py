@@ -36,13 +36,20 @@ print(subLista)
 # es decir que no se puede cambiar su valor una vez declarada
 #instancia de tupla
 
-tupla = ("soy una tupla",2,True,3.3)
+tupla = (1,2,3,"hola",2,3,4,5,6,7,6)
+lista = [12,34,45,56]
 
-uno,dos,tres = tupla
+"""
+uno,dos,tres,cuatro,*cinco = tupla
 
 print(uno)
 print(dos)
 print(tres)
-
-
+print(cuatro)
+print(cinco)
+"""
+resultado = zip(tupla, lista)
+#resultado = tuple(resultado)
+resultado = list(resultado)
+print(resultado)
 
