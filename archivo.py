@@ -1,8 +1,8 @@
 #primer programa en python
 #conceptos basicos
 """
-a = 1
-while a>=1 :
+a = True
+while a :
     print("Calculadora")
     print("1.-Sumar")
     print("2.-Restar")
@@ -20,7 +20,7 @@ while a>=1 :
     elif (a == 3):
         print("El resultado es: ", numero*numero2)
     elif (a == 4):
-        a = 0 
+        a = False 
 print("terminé")
 """        
 #listas 
@@ -90,9 +90,16 @@ print(len(dictionary))
 del dictionary["b"]
 #sintaxis alternativa//dictionary.pop("b") obtiene el valor de la llave que removimos 
 print(len(dictionary))
-print(dictionary)}
+print(dictionary)
+#cliclo for
 
-
+numeros = [1,2,3,4,5,6,7,8,9,10]
+for i in range(len(numeros)):
+    print(i)
+#asignaciones de valores mediante if
+calificacion = int(input())
+color = 'verde' if calificacion >= 7 else 'rojo'
+print(calificacion, color)
 
 
 
