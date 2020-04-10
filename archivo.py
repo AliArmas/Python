@@ -35,10 +35,8 @@ print(subLista)
 #las tuplas son inmutables 
 # es decir que no se puede cambiar su valor una vez declarada
 #instancia de tupla
-
 tupla = (1,2,3,"hola",2,3,4,5,6,7,6)
 lista = [12,34,45,56]
-
 """
 uno,dos,tres,cuatro,*cinco = tupla
 
@@ -72,6 +70,28 @@ print(result)
 #concatenacion
 texto = "C" + texto[1:] + " " + str(191287) + " " + " Soy una verga"
 print(texto)
+#dicionarios
+diccionario = {}
+diccionario["nombre"] = "Jose Ali" #llave con su valor
+valor = diccionario["nombre"]
+print(valor)
+#no pueden existir llaves duplicadas
+### obtener valores de llaves ### 
+#keys() retorna un objeto dic_keys con todas las llaves///puedes convertir este objeto
+#values() retorna un objeto dic_values con todos los valores///puedes convertir este objeto
+#items() dic_items
+dictionary = {"a":1,"b":2,"c":3}
+res = dictionary.get("z","La llave no existe")
+res2 = dictionary.setdefault("z", 43)
+print()
+#eliminar elemetos
+#clear() eliminar todos los elementos al igual que con una lista
+print(len(dictionary))
+del dictionary["b"]
+#sintaxis alternativa//dictionary.pop("b") obtiene el valor de la llave que removimos 
+print(len(dictionary))
+print(dictionary)}
+
 
 
 

@@ -59,7 +59,20 @@ formatos de string
 [0]upper() pone todas las letras en mayusculas
 [0]lower() pone todas las letras en minusculas
 [0]swapcase() cambia de mayusculas a minusculas
+[0] find() busca el string dentro del string/retorna el string encontrado y si no lo encuentra retorna -1
+[0] not in- no esta en
+[0] in -esta en 
+[0] count -contar 
+[0] starswhith("string que queremos saber que se encuentra al principio del mensaje") ayuda a saber si un string comienza con otro string/ retorna un booleano
+[0]endwith() con que finaliza un string
+ 
 -------------------------------------------------------------------------------------------------------------------------------
+DICSIONARIOS
+------------------------------------------------------------------------------------
+los diccionarios son mutables , es decir que los dicionarios a diferencia de las tuplas pueden agregar o quitar elementos de este
+-los diccionarios a diferencia de las tuplas y listas no se rigen por 	la regla de los indices, los valores que se almacenan corresponden a una key(llave)
+[a].-una llave puede ser cualquier tipo u objeto inmuable de python(String,tupla etc)S
+
 
 
 
