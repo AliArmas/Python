@@ -46,8 +46,7 @@ def addCal():
             print("Ingrese una opcion valida")
 
 def showCal():
-    
-
+    nombre = "sandra"
 accesControl = True
 while accesControl :
     print("CALIFICACIONES DE CUATRIMESTRE")

@@ -101,14 +101,41 @@ calificacion = int(input())
 color = 'verde' if calificacion >= 7 else 'rojo'
 print(calificacion, color)
 
+#funciones
+
+def crearUsurio (nombre,apellido,correo,contraseña=1234):
+    return {
+        'Nombre':nombre,
+        'Apellido' :apellido,
+        'Correo' : correo,
+        'Contraseña': contraseña
+    }
+
+codi = crearUsurio("Jose Ali","Mendoza","191287@ids.upchiapas.edu.mx",)
+usuario = list(codi.items())
+for key,value in usuario:
+    print(key," ",value)
+
+#funciones con n parametros
+
+def usuarios_autenticados(**kwargs):
+    print(kwargs)
+
+
+usuarios_autenticados(Ali=True, Dariana = False)
+
+#generadores
+def tabla_multiplicar(numero, maximo=10):
+    for posicion in range(1,maximo+1):
+        yield numero * posicion,numero,posicion
+
+
+for resultado,numero,posicion in tabla_multiplicar(9):
+    print(numero," x " ,posicion, " = ", resultado)
 
 
 
-
-
-
-
-
+#calses
 
 
 
