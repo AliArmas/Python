@@ -41,7 +41,7 @@ Lo que podemos hacer es utilizar el guión bajo _ junto con el asterisco * y apl
 primero, segundo, *_, ultimo = tupla
 De esta forma podemos trabajar de una forma más eficiente con las tuplas.
 ---------------------------------------------------------------------------
-https://es.wikihow.com/hackear-wifi-WPA/WPA2-con-Kali-Linux
+
 ---------------------------------------------------------------------------
 *sabemos que es una lista porque la declaramos con corchetes y sabemos que es una tupla proque la declaramos con parentesis.}
 * la funcion len() retorna un valor entero que te da la longitud de la cadena (los espacios tambien se cuentan como caracter)
