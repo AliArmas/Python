@@ -68,11 +68,11 @@ version = 3
 result = "Curso de {b} {a}".format(a=curso1,b=version)
 print(result)
 #concatenacion
-texto = "C" + texto[1:] + " " + str(191287) + " " + " Soy una verga"
+texto = "C" + texto[1:] + " " + str(12312312) + " " + "hola estoy concatenando"
 print(texto)
 #dicionarios
 diccionario = {}
-diccionario["nombre"] = "Jose Ali" #llave con su valor
+diccionario["nombre"] = "nombreUsuario" #llave con su valor
 valor = diccionario["nombre"]
 print(valor)
 #no pueden existir llaves duplicadas
@@ -111,7 +111,7 @@ def crearUsurio (nombre,apellido,correo,contraseña=1234):
         'Contraseña': contraseña
     }
 
-codi = crearUsurio("Jose Ali","Mendoza","191287@ids.upchiapas.edu.mx",)
+codi = crearUsurio("usuario","apellido","corre@gmail.com",)
 usuario = list(codi.items())
 for key,value in usuario:
     print(key," ",value)
